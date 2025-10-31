@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noticias de Jogos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #62056e;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 2rem auto;
+      gap: 2rem;
+    }
+
+    aside {
+      width: 25%;
+      background-color: #e6e6e6;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    aside h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    aside .box {
+      background-color: white;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    main {
+      width: 75%;
+    }
+
+    .post {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .post h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .post .meta {
+      font-size: 0.9rem;
+      color: gray;
+      margin-bottom: 1rem;
+    }
+
+    .post img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .post p {
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>Noticias de Jogos</header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Página 2</a>
+    <a href="#">Página 3</a>
+    <a href="#">Página 4</a>
+  </nav>
+
+  <div class="container">
+    <aside>
+      <h2>Sobre Mim</h2>
+      <div class="box">Fotinha</div>
+
+      <h2>Minha Bio</h2>
+      <div class="box">Imagem</div>
+
+      <h2>Minha Galeria</h2>
+      <div class="box">Imagem</div>
+    </aside>
+
+    <main>
+      <div class="post">
+        <h1>Conheça o Fortnite</h1>
+        <div class="meta">postado em 27/10/2025</div>
+        <img src="fortinite.png" alt="Fortnite" />
+        <p>
+          Fortnite é um videogame online popular desenvolvido pela Epic Games, conhecido principalmente por seu modo "Battle Royale", onde 100 jogadores competem para ser o último sobrevivente em uma ilha. O jogo combina elementos de tiro, construção de estruturas com recursos perdidos e sobrevivência. Além disso, oferece outros modos de jogo, como o cooperativo "Salve o Mundo" e experiências como LEGO Fortnite, Fortnite Festival e Rocket Racing, e é uma manifestação cultural que inclui eventos virtuais e interações com celebridades. 
+        </p>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    CopyRight - Todos os Direitos Reservados - 2024 | Programe.io
+  </footer>
+</body>
+</html>
